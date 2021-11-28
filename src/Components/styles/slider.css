@@ -1,0 +1,40 @@
+.slider-1 {
+  margin: 10px;
+}
+.slider-p {
+  font-size: 16px;
+}
+.slider-pos {
+  position: relative;
+  width: 95vw;
+}
+.slider-arrow-back-click {
+  position: absolute;
+  top: 40%;
+  left: -20px;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow-nextslider {
+  position: absolute;
+  top: 40%;
+  right: -15px;
+  width: 35px;
+  height: 35px;
+  z-index: 10;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.genres {
+  display: flex;
+  flex-direction: column;
+}
+.selectedButton {
+  background-color: blue;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.CircularProgressbar-path {
+  stroke: #48bf53 !important;
+}
+.CircularProgressbar-trail {
+  stroke: #02231c !important;
+}
+.CircularProgressbar-text {
+  fill: #fff !important;
+  font-size: 26px !important;
+}
+.CircularProgressbar-background {
+  fill: green;
+}
+.CircularProgressbar {
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px !important;
+  height: 50px;
+  left: 20px;
+  bottom: -20px;
+}

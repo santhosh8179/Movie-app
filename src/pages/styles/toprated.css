@@ -1,0 +1,68 @@
+.top-rated {
+  margin: 10px;
+}
+.top-rated-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.top-arrow-page {
+  display: flex;
+}
+.arrow-back-image {
+  height: 20px;
+  width: 20px;
+  transform: rotate(180deg);
+}
+.top-prev-page {
+  margin-right: 10px;
+}
+.top-arrowback-1 {
+  display: flex;
+  align-items: center;
+}
+.top-arrowback-2 {
+  width: 35px;
+  height: 35px;
+  z-index: 10;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.topratedlength {
+  display: flex;
+  align-items: center;
+}
+.nextstyle {
+  margin-right: 10px;
+}
+.arrownext-top {
+  width: 35px;
+  height: 35px;
+  z-index: 10;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrowimgalt {
+  height: 20px;
+  width: 20px;
+}
+.topmap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.topdivcard {
+  margin-right: 10px;
+}
